@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>Forms</title>
+</head>
+<body>
+<h1>
+So you wanna hire me?
+</h1>
+<h2>
+Do you have the juice?
+</h2>
+<p>
+<img src="https://media-exp2.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAXCAAAAJDdjNWNiY2Y5LTc0N2MtNDE1OS1iNmJiLWEyYWI5ZDVlNGE4Yg.jpg" align="left"> Confident, Competent. Curious. I am Torin Collins, a bright young woman studying Computer Information Systems and Economics at Howard University. My interests lie in UX Design, analytics and content development. I am an excellent communicator, team player and critical thinker. I bring passion and optimistic energy to any team and love a good challenge. I've worked with big 4 accounting firm KPMG as an intern in their advisory practice and served as team lead for various projects throughout my undergraduate studies. I'm dope. This is a small snippet of my self wrote at 2AM the night before my midterm, but I am definitely worth the risk. Fill out the below form for an opportunity to gain an exceptional asset to your company :).
+</p>
+<form action="http://example.com/join.php">
+<fieldset>
+<legend>Position</legend>
+<label>Company Name <input type="text" name="company"></label>
+<br /><label>Position <input type="text" name="position"></label>
+<br /><label>Location <input type="text" name="location"></label></fieldset>
+<p>
+How many vacation days are offered?
+<input type="integer" name="vacationdays" />
+<br />
+What is the salary offer (Please enter numbers only)?
+<input type="integer" name="salary" />
+</p>
+<input type="hidden" name="password">
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
